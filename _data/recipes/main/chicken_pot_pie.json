@@ -1,0 +1,40 @@
+{
+	"title":"Nani's Chicken Pot Pie",
+	"yield":"Serves 6",
+	"ingredients":[
+		{
+			"title":"Basic Pastry for Pot Pie",
+			"ingredients":["1 cup flour",
+			 "1/2 tsp. salt",
+			 "1/3 cup plus 1 Tbs. shortening",
+			 "2-3 Tbs. cold water"
+			]
+		},
+		{
+			"title":"Pie Filling",
+			"ingredients":["1 cup onion",
+			 "1 cup celery",
+			 "1 cup chopped carrot",
+			 "1/3 cup butter",
+			 "1/3 cup flour",
+			 "2 cup chicken broth",
+			 "1 cup half and half (or evaporated milk)",
+			 "1 tsp. salt",
+			 "1/4 tsp. pepper",
+			 "4 cup chopped chicken"
+			]
+
+		}
+	],
+	"steps":[
+		"For Pie Crust, combine flour and salt. Cut in shortening until mixture resembles coarse meal.",
+		"Stir in water.  Shape into ball.",
+		"Chill for an hour.  Roll pastry to fit casserole dish.",
+		"For pie filling, saute onion, celery and carrot in butter for 10 minutes.",
+		"Add flour; cook 1 minute. Combine broth and half and half; gradually stir into vegetable mixture.",
+		"Cook over medium heat until thickened.",
+		"Stir in salt and pepper. Add chopped chicken.",
+		"Pour into a greased shallow 2 quart casserole.  Top with pastry.",
+		"Bake 400F for 40 minutes."
+	]
+}

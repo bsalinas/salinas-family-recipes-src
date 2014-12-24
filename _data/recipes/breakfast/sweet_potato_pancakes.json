@@ -1,0 +1,23 @@
+{
+	"title":"Sweet Potato Pancakes",
+	"ingredients":[
+		{
+			"ingredients":["1½ cups sifted all-purpose flour",
+			 "3½ tsp. baking powder",
+			 "1 tsp. salt",
+			 "1/2 tsp. ground nutmeg",
+			 "1¼ cups mashed cooked sweet potatoes",
+			 "2 eggs, beaten",
+			 "1½ cups milk",
+			 "1/4 cup butter, melted"
+			]
+
+		}
+	],
+	"steps":[
+		"Mix dry ingredients together.",
+		"In a separate bowl, mix potatoes, eggs, milk and butter.",
+		"Stir dry ingredients into mixture.",
+		"Pour pancakes onto hot greased griddle."
+	]
+}

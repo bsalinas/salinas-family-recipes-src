@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="">
+  {% for section_hash in site.data.recipes %}
+    {% assign section= section_hash[1] %}
+    {% for recipe_hash in section %}
+      {% assign recipe = recipe_hash[1] %}
+      {% if recipe.type == null %}
+        {% include recipe.html recipe=recipe section=section.metadata %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="table-of-contents">
+  {% for section_hash in site.data.recipes %}
+    {% assign section= section_hash[1] %}
+    <h1>{{section.metadata.title}}</h1>
+    <ul>
+    {% for recipe_hash in section %}
+
+      {% assign recipe = recipe_hash[1] %}
+      {% if recipe.type == null %}
+      	<li><a href="{{site.baseurl}}/{{section_hash[0]}}/{{recipe_hash[0]}}.html">{{recipe.title}}</a></li>
+      {% endif %}
+      <!-- {% if recipe.type == null %} -->
+        <!-- {% include recipe.html recipe=recipe section=section.metadata %} -->
+      <!-- {% endif %} -->
+    {% endfor %}
+    </ul>
+  {% endfor %}
+</div>
+
