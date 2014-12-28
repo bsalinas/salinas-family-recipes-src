@@ -1,6 +1,7 @@
 {
 	"title":"Chayo's Tortilla Soup",
-	"yields":"Serves 10-12 people",
+	"yield":"Serves 10-12 people",
+	"story":"This is our go-to dish when needing to feed a group of 12 or more since it can be prepared before and freezes well.",
 	"ingredients":[
 		{
 			"ingredients":["10 cups of water",

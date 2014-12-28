@@ -267,6 +267,7 @@
 }
 
 
+
 h1{
     color:$accent-color!important;
     font-size:65px;
@@ -374,5 +375,11 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
+}
+
+.container [data-section="main"]{
+    h1,h2{
+        color:red!important;
+    }
 }
 
