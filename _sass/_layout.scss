@@ -377,8 +377,8 @@ blockquote {
   quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
-  /*color: lighten($accent-color,10%);//#ccc;*/
-  content: open-quote;
+  color: lighten($accent-color,10%);//#ccc;
+  content: "\201C";
   font-size: 4em;
   line-height: 0.1em;
   margin-right: 0.25em;
