@@ -289,10 +289,10 @@ body{
     color:$grey-color;
 }
 
-@media(max-width:799px){
+@media (max-width:799px){
 
 }
-@media(min-width:800px){
+@media (min-width:800px), print{
     .mobile-only{
         display:none;
     }
@@ -377,7 +377,7 @@ blockquote {
   quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
-  color: lighten($accent-color,10%);//#ccc;
+  /*color: lighten($accent-color,10%);//#ccc;*/
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
