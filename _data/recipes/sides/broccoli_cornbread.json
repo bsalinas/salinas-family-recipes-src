@@ -4,7 +4,7 @@
 	"ingredients":[
 		{
 			"ingredients":[
-				"1 8oz pkg cornbread mix",
+				"1 package Jiffy cornbread mix",
 				"3/4 cup cottage cheese",
 				"1/2 cup onion (chopped)",
 				"3 eggs",
@@ -16,6 +16,7 @@
 		}
 	],
 	"steps":[
+		"Preheat oven to 400 degrees",
 		"Combine cornbread, cottage cheese, onion, eggs and melted margarine. ", 
 		"Mix well.",
 		"Stir in broccoli & cheese.",

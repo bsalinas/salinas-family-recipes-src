@@ -306,9 +306,16 @@ body{
         margin-left: 0;
 
         li{
-            line-height: 12px;
+            line-height: 14px;
             margin-bottom: 8px;
         }
+    }
+    h3{
+        margin-bottom:10px;
+        color:$grey-color;
+        border-bottom-style:solid;
+        border-bottom-width:1px;
+        border-bottom-color:$grey-color;
     }
 }
 ol { 
@@ -326,7 +333,7 @@ ol {
 }
 hr{
     margin-top: -22px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width: calc(100% + 40px);
     border:none;
     color:$grey-color;
@@ -349,3 +356,23 @@ hr{
     }
 
 }
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid lighten($accent-color,10%);
+  margin: 10px 0;
+  padding: 1.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: lighten($accent-color,10%);//#ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+

@@ -7,9 +7,8 @@
   <hr size="4">
   
   <div class="left ingredients">
-    <h2>Ingredients</h2>
       {% for ingredient_section in include.recipe.ingredients%}
-      <h3>{{ingredient_section.title}}</h3>
+      {%if ingredient_section.title%}<h3>{{ingredient_section.title}}</h3>{%endif%}
       <ul>
         {% for ingredient in ingredient_section.ingredients%}
         <li>{{ingredient}}</li>
@@ -19,7 +18,6 @@
       {% endfor %}
     </div>
     <div class="right instructions">
-      <h2>Instructions</h2>
       <ol>
       {%for step in include.recipe.steps%}
         <li>
@@ -28,6 +26,10 @@
       {%endfor%}
       </ol>
     </div>
+    {%if include.recipe.story%}
+    <blockquote>{{include.recipe.story}}</blockquote>
+    {% endif %}
+
 </div>
   <div class="bottom-bar"><p>{{include.section.title}}</p></div>
 </div>
