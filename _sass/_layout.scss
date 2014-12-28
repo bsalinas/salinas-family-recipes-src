@@ -350,6 +350,9 @@ hr{
 }
 
 @media print {
+    .mobile-only{
+        display:none;
+    }
     .page-break { display: block; page-break-before: always; }
 }
 
@@ -385,9 +388,63 @@ blockquote p {
   display: inline;
 }
 
-.container [data-section="main"]{
+.container [data-section="breakfast"]{
     h1,h2{
-        color:red!important;
+        color:#62e7fe!important;
+    }
+    blockquote::before{
+        color: #62e7fe;
+    }
+    blockquote{
+        border-left:10px solid #62e7fe;
+    }
+    .bottom-bar{
+        background-color:#62e7fe;
     }
 }
+.container [data-section="dessert"]{
+    h1,h2{
+        color:#5db3fc!important;
+    }
+    blockquote::before{
+        color: #5db3fc;
+    }
+    blockquote{
+        border-left:10px solid #5db3fc;
+    }
+    .bottom-bar{
+        background-color:#5db3fc;
+    }
+}
+
+.container [data-section="main"]{
+    h1,h2{
+        color:#0097c4!important;
+    }
+    blockquote::before{
+        color: #0097c4;
+    }
+    blockquote{
+        border-left:10px solid #0097c4;
+    }
+    .bottom-bar{
+        background-color:#0097c4;
+    }
+}
+
+.container [data-section="sides"]{
+    h1,h2{
+        color:#060b6f!important;
+    }
+    blockquote::before{
+        color: #060b6f;
+    }
+    blockquote{
+        border-left:10px solid #060b6f;
+    }
+    .bottom-bar{
+        background-color:#060b6f;
+    }
+}
+
 
