@@ -234,18 +234,12 @@
         }
     }
 }
-.container{
-    width:8in;
-    /*background-color:#f2f2f2;*/
-}
+
 .recipe{
     padding:40px;
     padding-top:20px;
 }
-.page{
-    height:calc(8in - 20px - 0.25in);
-    position:relative;
-}
+
 .bottom-bar{
     position: absolute;
     bottom: 0;
@@ -261,9 +255,6 @@
         text-align: right;
         margin-right: 40px;
     }
-}
-.recipe-header{
-    width:6in;
 }
 
 
@@ -290,9 +281,18 @@ body{
 }
 
 @media (max-width:799px){
-
+    h1{
+        font-size:40px;
+        line-height:40px;
+    }
+    hr{
+        display:none;
+    }
 }
 @media (min-width:800px), print{
+    .recipe-header{
+        width:6in;
+      }
     .mobile-only{
         display:none;
     }
@@ -348,8 +348,18 @@ hr{
     color:$grey-color;
     background-color:$grey-color;
 }
-
+.page{
+    position:relative;
+}
 @media print {
+    .page{
+        height:calc(8in - 20px - 0.25in);
+        
+    }
+    .container{
+        width:8in;
+        /*background-color:#f2f2f2;*/
+    }
     .mobile-only{
         display:none;
     }
